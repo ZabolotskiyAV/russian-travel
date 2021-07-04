@@ -1,13 +1,10 @@
 .header__lang-link {
-  list-style-type: none;
   text-decoration: none;
-  font-size: 24px;
-  line-height: 28px;
   color: #fff;
-  padding: 0;
-  margin: 0;
+  margin-left: 13px;
+  transition: opacity .5s ease;
 }
 
-.header__lang-link:nth-child(1) {
-  border-bottom: 1px solid #fff;
+.header__lang-link:hover {
+  opacity: 0.8;
 }
