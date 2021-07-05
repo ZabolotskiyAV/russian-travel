@@ -16,7 +16,6 @@
   .footer {
     max-width: 720px;
     padding-top: 20px;
-    margin: 0 24px;
     flex-wrap: wrap;
   }
 }

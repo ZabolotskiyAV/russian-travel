@@ -4,7 +4,7 @@
   line-height: 76px;
   font-weight: 900;
   margin: 0;
-  overflow: hidden;
+  word-wrap: break-word;
 }
 
 @media screen and (max-width: 1024px) {
@@ -23,7 +23,6 @@
 
 @media screen and (max-width: 320px) {
   .place__title {
-    max-width: 328px;
     font-size: 32px;
     line-height: 35px;
     margin: 0 16px;
