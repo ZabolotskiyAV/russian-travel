@@ -6,7 +6,7 @@
 }
 
 .place__paragraph:last-child {
-  padding: 0;
+  padding-bottom: 0;
 }
 
 @media screen and (max-width: 768px) {
@@ -19,6 +19,6 @@
 
 @media screen and (max-width: 320px) {
   .place__paragraph {
-    padding: 5px 16px 19px;
+    padding: 0 16px 25px;
   }
 }

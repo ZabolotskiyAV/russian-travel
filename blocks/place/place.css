@@ -15,7 +15,7 @@
   .place {
     max-width: 928px;
     column-gap: 32px;
-    margin-bottom: 70px;
+    margin-bottom: 80px;
   }
 }
 
@@ -24,14 +24,21 @@
     max-width: 720px;
     column-gap: 28px;
     row-gap: 44px;
-    margin-bottom: 40px;
+    margin-bottom: 75px;
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   .place {
-    grid-template-columns: auto;
+    grid-template-columns: 100%;
     row-gap: 26px;
     margin-bottom: 33px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place {
+    row-gap: 32px;
+    margin-bottom: 50px;
   }
 }
